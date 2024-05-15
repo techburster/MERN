@@ -1,0 +1,9 @@
+ // Print "Namaste Duniya";
+ // Return the sum of two numbers;
+ // Convert hours into seconds;
+ // Convert Age to days, assume 1 year = 365 days and avoid leap years;
+ // Return the Remainder of Two numbers;
+ // Return the Quotient of Two numbers;
+ // Find the perimeter of a rectangle;
+ // Return true of the number is less than 100 otherwise false;
+ // Return the multiplication of two numbers;

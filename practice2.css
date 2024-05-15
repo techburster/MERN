@@ -1,0 +1,276 @@
+/* Main Container */
+.maincontainer
+{    position: fixed;
+    z-index: 5;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0%;
+    padding: 0%;
+    font-size: x-large;
+    justify-content: center;
+    justify-content: space-between;
+    /* height: 20px;
+    width: 1000px; */
+    background-color: black;
+}
+.special
+{
+    display: flex;
+    flex-grow: 2;
+}
+.txtclass
+{
+    margin-left: auto;
+}
+.navbar
+{
+    display: flex;
+    background-color:white;
+
+}
+.maincontainer div 
+{  
+    border: 1px;
+    border-color: black;
+    display: flex;
+    padding:1%;
+    
+
+
+    justify-content: space-between;
+}
+.navbar a {
+    color: black;
+    
+}
+.maincontainer a:hover{
+    background-color:grey;
+    color:white;
+    cursor: pointer;;
+}
+
+
+/* image header */
+
+.imgheader 
+{
+    background-color: black;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    object-fit: fill;
+    
+}
+.pad
+{
+    font-size: 80px;
+    margin: 20px;
+    padding: 5px;
+    color: white;
+    background-color:#000000;
+}
+img
+{
+    height: 100%;
+    width: 100%;
+}
+.overflow
+{
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: xxx-large;
+    transform: translate(-50%, -50%);
+}
+
+/* contect body css */
+.contentbody
+{
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.contentbody > a
+{
+    font-size: xxx-large;
+    text-decoration: solid;
+    padding: 1%;
+}
+/* image gallery */
+.container
+{
+    display: flex;
+    padding: 1%;
+    position: relative;
+    
+}
+.imggall
+{
+    display: flex; width: 100%;
+}
+.imagetext
+{   display: flex;
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 4%;
+    top: 6%;
+    padding: 1%;
+
+}
+/* about sectio n */
+.textdec
+{
+    justify-content: center;
+    font-size: x-large;
+    padding: 2%;
+}
+
+/* images card sections */
+                .cardcontainer
+                {
+                    display: flex;
+                    position: relative;
+                    
+                    overflow: hidden;
+                    width: 100%;
+                    margin: auto;
+                    justify-content: space-between;
+                    padding: 0%;
+
+                }
+                .card
+                {
+
+                    display: flex;
+                    width: 23%;
+                    margin: 0px 10px;
+                    
+                    
+                    flex-direction: column;
+                }
+                .mp{
+                    padding:auto;
+                    
+                }
+                .imgp
+                {
+                    height: auto;
+                    width: 100%;
+                }
+                .textdec1
+                {
+                    color: grey;
+                
+                }
+                .textdec2
+                {
+                font-size: xx-large;
+                padding: 0%;
+                margin: 0%;
+                }
+                .textdec3
+                {
+                    font-size: x-large;
+                    padding: 0%;
+                margin: 0%;
+                }
+                .imgcardbtn
+                {   
+                    display: flex;
+                    width: 100%;
+                    background-color: lightgray;
+                    align-items: center;
+                    text-decoration: solid;
+                    font-size:x-large;
+                    
+                    justify-content: space-evenly;
+                }
+/* ENd images card sections */                
+
+
+/* contact form css */
+
+.formdiv
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5%;
+    
+    justify-content:space-evenly;
+}
+.formdiv p 
+{
+font-size: xxx-large;
+}
+.extdiv
+{
+    width: 100%;
+}
+.inputdetail
+{
+    display: flex;
+    width: 100%;
+    height: auto;
+    
+    flex-direction: column;
+}
+.inputdec {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: xx-large;
+  }
+ .btndec
+ {
+    margin: 1%;
+    background-color: black;
+    color: white;
+    padding: 1%;
+    font-size: large;
+    width: fit-content;
+ } 
+
+ /* End contact form css */
+
+ /* map image section */
+.mapcontainer
+{   
+    display: flex;
+    width: 100%;
+    height: auto;
+    
+    justify-content: space-around;
+
+}
+.mapimg
+{
+    width: 95%;
+    height: auto;
+}
+/*end  map image section */
+/* bottom bar section */
+
+.btmbar
+{   display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    font-size: xx-large;
+    margin-top: 1%;
+    background-color: #000000
+}
+.btmbar p{
+    color: white;
+}
+.btmbar a {
+    color: white;
+}    

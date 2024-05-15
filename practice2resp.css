@@ -1,0 +1,16 @@
+@media (max-width: 900px)
+{ 
+    .maincontainer{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    
+    }
+       .navresp
+    {
+        width: 100%;
+        color: white;
+        background-color: black;
+        flex-grow: 0;
+    }
+    
+}

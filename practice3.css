@@ -1,0 +1,399 @@
+.background
+{
+    background-color: black;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+
+/* start navar css */
+.maincontainer
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    color: white;
+   background-color: black;
+    /* background-color: antiquewhite; */
+
+}
+.navelement
+{
+    display: flex;
+    width: 20%;
+    margin: 1%;
+    font-size: large;
+    
+    justify-content: center;
+}
+.navelement>a
+{
+    padding: 1%;
+    text-decoration: none;
+    color: white;
+}
+.navelement:hover
+{
+    background-color: lightslategray;
+    color: white;
+}
+.flexgrow
+{
+    flex-grow: 1;
+}
+.textdec1
+{
+    align-items: flex-start;
+   
+}
+.subnav
+    {   
+        padding: 0%;
+        margin: 5px;
+        display: flex;
+        width: 30%;
+        /* justify-content: center; */
+        justify-content: space-between;
+        
+        /* background-color: aquamarine; */
+    }
+ .subnav>div{
+    align-items: center;
+ }   
+/* end navar css */
+/* responsive css for navbar */
+@media (max-width: 900px)
+{ 
+    .maincontainer{
+        flex-direction: column;
+        flex-wrap: wrap;
+            
+    
+    }
+
+    .navelement
+    {
+        width: 100%;
+        margin: auto;
+    }
+    .subnav div{
+        display: none;
+    }
+    
+   
+}
+/* end responsive css for navbar */
+
+/* image section css */
+.imgsecn
+{   
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60%;
+    padding: 0%;
+    margin: 0%;
+
+}
+.imagediv
+{   display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+
+}
+.imgp
+{
+    width: 100%;
+    height: auto;
+}
+.imgpn
+{
+    display: none;
+}
+.clogo
+{
+    display: flex;
+    
+    color: grey;
+    font-size: 3em;
+    top: -100px;
+    width: auto;
+    position: relative;
+    
+}
+.txtdec5
+{
+    background-color: gray;
+    color: white;
+    padding: 2px;
+    margin-right: 20px;
+}
+
+/* media query for logo */
+@media (max-width: 900px)
+{
+    .clogo{
+        right: 0px;
+        top: -200px; 
+        font-size: 30px; 
+        left: 10px;      
+
+    }
+}
+@media (max-width:600px) {
+
+   .imgp{
+        display: none;
+    }
+   .imgpn{
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+    .clogo{
+        display: none;
+    }
+   
+    
+}
+
+/* project section */
+.project
+{
+    display: flex;
+    width: 100%;
+    height: auto;
+    
+    justify-content: center;
+}
+.project h2{
+    font-size: xxx-large;
+}
+
+/* media query for project header */
+@media (max-width:900px)
+{
+    .project h2
+    {
+        font-size: medium;
+    }
+}
+/* image gallery  css */
+.gallery
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* background-color: beige; */
+    flex-wrap:wrap ;
+   
+    height: auto;
+}
+.imgfrm
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    
+    width: 20%;
+    padding: 1%;
+    
+}
+.imgfrm img {
+    width: 100%;
+    
+}
+.imgfrm p
+{
+    background-color: black;
+    position: absolute;
+   margin-top: -2px;
+   
+   padding: 4px;
+
+    
+}
+/* end image gallery css */
+/* media query project section */
+@media (max-width:600px) {
+
+    .imgfrm
+    {
+        width: 90%;
+        padding: 2%;
+    }
+  
+     
+ }
+ /* end media query for project section */
+
+ /* about section css */
+ .aboutdiv
+ {
+    
+    width: 100%;
+    ;
+ }
+ .aboutdiv p
+ {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+ }
+ .aboutdiv h2 
+ {
+    font-size: xxx-large;
+ }
+ .titleheading
+ {  
+    display: flex;
+    justify-content: center;
+
+}
+
+ /* END ABOUT SECTION CSS */
+ /* IMAGE CARD CSS */
+ .imgcard
+ {  
+    display: flex;
+    
+   
+    width: 100%;
+    justify-content: space-around;
+    
+    height: auto;
+    /* background-color: aqua; */
+ }
+ .card
+ {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* background-color: bisque; */
+    margin: 10px;
+    justify-content: center;
+    width: 24%;
+
+ }
+ .card img
+ {
+    width: 100%;
+    height: auto;
+ }
+ .card h2{
+    padding: 0%;
+    margin:0%;
+    font-size: xx-large;
+
+ }
+ .card h3{
+    padding: 0%;
+    margin: 0%;
+ }
+ .card p
+ {
+    text-justify: auto;
+
+ }
+ 
+ .card > div
+ {
+
+ display: flex;   
+ font-size: medium;
+ width: 100%;
+ padding: 0%;
+ margin: 0%;
+ background-color: gray;
+ justify-content: center;
+ }
+ /* responsive image card  */
+ @media (max-width:600px) {
+
+    .imgcard
+    {
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+        align-items: center;
+        padding: 0%;
+        margin: 0%;
+    }
+    .card
+    {
+    width: 90%;
+    
+    }
+    
+     
+ }
+ /* end responsive image card  */
+ /* form section css */
+.contactf
+{   display: flex;
+    flex-direction: column;
+    padding: 5%;
+    width: 90%;
+
+}
+.contactf>h2{
+    font-size: xx-large;
+} 
+.innerform
+{
+    width: 100%;
+}
+.innerform>input
+{
+    width: 95%;
+    font-size: larger; 
+    padding: 1%;
+    margin: 1%;
+   
+}
+.butt
+{
+    width:fit-content;
+    padding: 1%;
+    margin-left: 1%;
+    margin-top: 1%;
+    background-color: gray;
+}
+/* end form css */
+/* map css */
+.map
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.map img
+{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+/* end map  css  */
+/* footer section */
+.btmnav
+{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    margin-top: 3%;
+    background-color: gray;
+    justify-content: space-around;
+}
+.btmnav h2
+{
+    font-size: small;
+}
+/* end footer section  */
